@@ -11,8 +11,8 @@ class Rectangle extends Shape {
         $this->height = $cHeight;
     } 
 
-    static function calculateArea($cWidth, $cHeight) {
-        return $cWidth * $cHeight;
+    public function calculateArea() {
+        return $this->width * $this->height;
     }
 }
 ?>
